@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,600;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
+@media (max-width: 810px){
+	div{
+		margin: auto;
+		position: relative;
+		justify-content: center;
+		flex-direction: column;
+	}	
+	.button{
+		padding: auto;
+	}
+}
+
+
 h1{
 	font-size: 3em;
 	text-align: center;
@@ -77,31 +90,9 @@ div{
   }
 }
 
-@media screen and(max-width: 810px){
-	table{
-		display: flex;
-		width: auto;
-		
-	}
-	section, main{
-		margin: auto;
-		display: flex;
-		position: relative;
-		align-items: center;
-		justify-content: center;
-	}	
-	.button{
-		padding: auto;
-	}
-}
-
-main{
+main, section{
 	margin-left: 7.5%;
 }
-
-section{
-	margin-left: 7.5%;
-  }
 
 footer{
 	text-align: right;
