@@ -33,6 +33,7 @@ hr{
 	margin-block-start: 0%;
 	align-content: center;
 	justify-content: center;
+	text-align: center;
 }
 
 #grande{
@@ -62,10 +63,6 @@ body {
 	color: black;
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 1.25vw;
-}
-
-a{
-	text-decoration: none;
 }
 
 div{
