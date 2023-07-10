@@ -8,15 +8,14 @@
 		flex-direction: column;
 	}	
 	.button{
-		padding: auto;
+		padding: 20%;
 	}
 }
 
 
 h1{
-	font-size: 3em;
+	font-size: 6vw;
 	text-align: center;
-	justify-content: center;
 }
 
 hr{
@@ -32,10 +31,12 @@ hr{
 	font-family: 'Russo One', sans-serif;
 	font-weight: bolder;
 	margin-block-start: 0%;
+	align-content: center;
+	justify-content: center;
 }
 
 #grande{
-	font-size: large;
+	font-size: 1.75vw;
 }
 
 #myImg {
@@ -60,7 +61,7 @@ body {
 	background-color: white;
 	color: black;
 	font-family: 'Noto Sans', sans-serif;
-	font-size: 100%;
+	font-size: 1.25vw;
 }
 
 a{
@@ -78,12 +79,12 @@ div{
   border-color: gray;	
   border-radius: 7px;
   color: white;
-  padding: 2.5em;
+  padding: 1.5vw;
   justify-content: space-around;
   text-align: center;
   font-weight: bold;
   display: inline;
-  margin: 1em;
+  margin: 1vw;
   cursor: pointer;
   &:active{
 	background-color: gray;
