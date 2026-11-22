@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang = pt-br>
-
+<html lang="pt-BR">
 <head>
-	<title>Regis Perfil</title>
-        <meta charset= utf-8 >
-	<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
@@ -21,66 +19,29 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reginaldo | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<!-- <body>
-	<header>
-		<!--isto é um comentário-->
-<!-- 		<div id = myDiv><br>
-		<h1 id="topo">MEU PERFIL</h1><br>
-		</div>
-		<br>
-	</header>
-	<main>
-		<div>
-		<img id= myImg src = "img/regis.jpg" alt = "Regis" width = "25%" height = "35%"> <p style= "margin-right: 12.5%; margin-left: 1%;" id = grande>Olá, eu sou <b>Reginaldo Filho</b>. Tenho 16 anos e moro em Blumenau - Santa Catarina. Já estudei Python, GMS2, C# e atualmente estudo Java no +devs2blu 2023. Meu sonho é construir minha carreira na área da informática, me interesso pela área desde pequeno.	Abaixo estão listadas algumas informações úteis(ou não) sobre mim: </p>
-		</div>
-	</main>
-	<br><hr><br>
-	<section>
-		<div>
-		<h2>Histórico educacional</h2>
-		<ul>
-			<li>Estou no segundo ano do Curso Técnico de Informática Integrado ao Ensino Médio</li>
-			<li>Estudo no IFC campus Blumenau, localizado no Badenfurt</li>
-			<li>Estudei introdução à programação na ProWay em 2022</li>
-			<li>Estudei programação em C# na ProWay em 2022</li>
-			<li>Pretendo cursar Ciências da Computação no IFC Campus Blumenau</li>
-			<li>Estudei inglês na CNA por 3 anos. Tenho nível C1</li>
-		</ul>
-		</div>
-	</section>
-	<br><hr><br>
-	<section>
-	<div>
-		<h2>Informações pessoais</h2>
-		<ul>
-			<li>Vim de Belo Horizonte para Blumenau em 2017</li>
-			<li>Nasci em 2007</li>
-			<li>Me interessei pela programação com 11 anos</li>
-			<li>Além de programação, tenho grande interesse na música e toco guitarra</li>
-			<li>Sou Corinthiano</li>
-		</ul>
-	</div>
-	</section>
-		
-	<br><hr><br>
-	<section>
-		<div>
-			<h2>Redes Sociais</h2>
-				<a href = "https://www.instagram.com/ejnmia" class= "button">Instagram<br> <img src="img/instagram.png" alt= "Ícone Instagram" width= 32px></a>
-				<a href = "https://www.linkedin.com/in/reginaldo-filho-810099281" class= "button">LinkedIn<br>  <img src="img/linkedIn.png" alt= "Ícone LinkedIn" width= 32px></a><br>
-				<a href = "https://www.github.com/regi-lpf" class= "button">GitHub<br> <img src="img/gitHub.png" alt= "Ícone GitHub" width= 32px></a>
-				<a href = "https://www.facebook.com/profile.php?id=100009345326764&mibextid=ZbWKwL" class= "button">Facebook<br> <img src="img/facebook.png" alt= "Ícone Facebook" width= 32px></a>
-		</div>
-	</section>
-	<br><hr><br>
-	<footer>
-		<a href="#topo"> Topo da página </a>
-		<p>© 2023 Reginaldo Filho +devs2blu </p> 
-	</footer> -->
-	<h1>teste</h1>
+<body>
+  <header class="container">
+    <h1>Reginaldo</h1>
+    <p class="subtitle">Desenvolvedor & Estudante de Ciência da Computação</p>
+    <nav class="social-links">
+      <a href="https://github.com/regi-lpf" target="_blank" rel="noopener">GitHub</a>
+      <!-- Adicione LinkedIn, email, etc. se quiser -->
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Projetos</h2>
+      <div id="projects-grid" class="grid">
+        <p class="loading">Carregando repositórios...</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
