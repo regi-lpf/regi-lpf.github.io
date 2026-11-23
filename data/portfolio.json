@@ -1,0 +1,209 @@
+{
+  "generatedAt": "2026-11-23T19:17:16.088Z",
+  "provider": "openrouter",
+  "projects": [
+    {
+      "name": "s2y-query",
+      "summary": "s2y-query é uma API simples de consulta ao YouTube desenvolvida em JavaScript para o projeto S2Y, servindo como alternativa à API v3. O projeto está implantado.",
+      "highlight": "Linguagem: JavaScript | Deploy: Sim | Escopo: Consulta ao YouTube para o projeto S2Y (alternativa à v3)",
+      "tags": [
+        "JavaScript",
+        "YouTube API",
+        "S2Y"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/s2y-query",
+      "deployUrl": "https://www.npmjs.com/package/@regi_lpf/s2y-query",
+      "updatedAt": "2025-05-04T18:30:34Z"
+    },
+    {
+      "name": "past-fears",
+      "summary": "Past Fears é um jogo desenvolvido em Game Maker Language para a disciplina de Desenvolvimento de Projeto, no curso Técnico em Informática Integrado ao Ensino Médio. O repositório está desatualizado e possui deploy disponível.",
+      "highlight": "Classificação: RPG, Roguelike e Metroidvania. Estrutura dividida em três fases conforme a idade do protagonista: 4 anos (medo do escuro e Monstro do Armário), 8 anos (medo da escola, pressão por notas e desafio A Prova) e 12 anos (aceitação da aparência na adolescência, pensamentos indesejáveis e comentários alheios). Referências técnicas: The Binding of Isaac (salas geradas aleatoriamente, combate em tempo real, chefes) e Enter the Gungeon (bullet hell roguelike, salas processuais, morte permanente).",
+      "tags": [
+        "Game Maker Language",
+        "RPG",
+        "Roguelike",
+        "Metroidvania",
+        "Desenvolvimento de Projeto"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/past-fears",
+      "deployUrl": "https://gx.games/games/py4izv/past-fears/",
+      "updatedAt": "2025-02-23T18:10:30Z"
+    },
+    {
+      "name": "mapkeep",
+      "summary": "MapKeep é uma aplicação web para registro e visualização de viagens pelos estados do Brasil.",
+      "highlight": "Mapa interativo com destaque de estados visitados e contador de exploração; linha do tempo cronológica para memórias, fotos e datas.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Vite",
+        "Supabase",
+        "PostgreSQL",
+        "GitHub Actions",
+        "GitHub Pages"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/mapkeep",
+      "deployUrl": "https://regi-lpf.github.io/mapkeep/main.html",
+      "updatedAt": "2026-11-23T04:06:19Z"
+    },
+    {
+      "name": "lemeept",
+      "summary": "Pipeline de extração de dados e painel bibliométrico para defesas do programa ProfEPT/IFC Campus Blumenau. Implementado em Python (>=3.14) com gerenciamento de dependências via `uv`.",
+      "highlight": "Execução em quatro etapas via CLI: (1) coleta de manifesto WordPress e download de PDFs com IDs estáveis; (2) extração determinística de PDFs locais via PyMuPDF com cache e scraping do eduCAPES; (3) extração via LLM, incremental por padrão, com ressincronização determinística offline; (4) importação de revisões por CSV, validação de contratos com Pydantic v2 e geração de `dist/painel-ept-v4.json`.",
+      "tags": [
+        "Python",
+        "Pydantic v2",
+        "PyMuPDF",
+        "LLM",
+        "CSV",
+        "HTML/CSS/JS",
+        "Elementor"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/lemeept",
+      "deployUrl": "https://regi-lpf.github.io/lemeept/",
+      "updatedAt": "2026-11-20T21:16:20Z"
+    },
+    {
+      "name": "calculadora-epic",
+      "summary": "Projeto calculadora-epic desenvolvido com foco em HTML para aprendizado de introdução ao JavaScript. Possui deploy disponível.",
+      "highlight": "Objetivo educacional: introdução ao JavaScript.",
+      "tags": [
+        "HTML",
+        "JavaScript",
+        "Aprendizado"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/calculadora-epic",
+      "deployUrl": "https://regi-lpf.github.io/calculadora-epic/",
+      "updatedAt": "2025-05-08T22:15:05Z"
+    },
+    {
+      "name": "maoversary",
+      "summary": "maoversary é um site estático desenvolvido em HTML que exibe citações de Mao Tsé-tung em português do Brasil com base no dia e mês inseridos pelo usuário. As citações são extraídas diretamente de https://www.marxists.org/portugues/mao/1966/citas/index.htm. O projeto está implantado.",
+      "highlight": "maoversary é um site estático desenvolvido em HTML que exibe citações de Mao Tsé-tung em português do Brasil com base no dia e mês inseridos pelo usuário. As citações são extraídas diretamente de https://www.marxists.org/portugues/mao/1966/citas/index.htm. O projeto está implantado.",
+      "tags": [
+        "HTML",
+        "deploy"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/maoversary",
+      "deployUrl": "https://regi-lpf.github.io/maoversary/",
+      "updatedAt": "2026-11-18T23:05:32Z"
+    },
+    {
+      "name": "compedu",
+      "summary": "Aplicação web para equipes escolares gerenciarem comunicados internos e registros pedagógicos, com controle de acesso por níveis (1 a 5) e dimensões horizontais (papel, ano letivo, turma, matrícula e vínculo de ensino).",
+      "highlight": "Backend em Python com FastAPI e Pydantic v2; banco PostgreSQL ou SQLite via SQLAlchemy 2.0 e Alembic; autenticação Google OAuth 2.0 com JWT de sessão; frontend em HTML, CSS e JavaScript puro; deploy serverless na Vercel.",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Google OAuth",
+        "Vercel",
+        "Alembic",
+        "Pytest"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/compedu",
+      "deployUrl": "https://compedu.vercel.app/",
+      "updatedAt": "2026-11-23T17:05:59Z"
+    },
+    {
+      "name": "playlist-migrator-frontend",
+      "summary": "Interface de usuário para clonar playlists públicas do Spotify e recriá-las no YouTube.",
+      "highlight": "Frontend desenvolvido em HTML, CSS e JavaScript, integrado a um backend em Node.js para autenticação via Google OAuth 2.0 e consumo da YouTube Data API v3.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Google OAuth 2.0",
+        "YouTube Data API v3",
+        "Vercel",
+        "Render"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/playlist-migrator-frontend",
+      "deployUrl": "https://regilpf-s2y.vercel.app",
+      "updatedAt": "2025-05-05T17:11:45Z"
+    },
+    {
+      "name": "simple-django-project",
+      "summary": "Projeto de implementação de CRUD utilizando o framework Django, desenvolvido para a disciplina de Desenvolvimento Web. Execução local via servidor de desenvolvimento (`python manage.py runserver`). Requer Python 3 e instalação do pacote Django via pip.",
+      "highlight": "CRUD com Django",
+      "tags": [
+        "Django",
+        "Python",
+        "CRUD",
+        "Desenvolvimento Web"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/simple-django-project",
+      "deployUrl": null,
+      "updatedAt": "2025-09-26T00:58:37Z"
+    },
+    {
+      "name": "mapkeep-backend",
+      "summary": "Backend do projeto MapKeep desenvolvido em Node.js.",
+      "highlight": "Node.js",
+      "tags": [
+        "Node.js",
+        "Backend"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/mapkeep-backend",
+      "deployUrl": null,
+      "updatedAt": "2025-05-23T19:08:21Z"
+    },
+    {
+      "name": "playlist-migrator-backend",
+      "summary": "Backend desenvolvido em JavaScript (Node.js) para migração de playlists públicas do Spotify para o YouTube.",
+      "highlight": "Integração com Google OAuth 2.0 e YouTube Data API v3 utilizando a biblioteca `googleapis` e um pacote NPM customizado inspirado em aiotube.",
+      "tags": [
+        "Node.js",
+        "JavaScript",
+        "YouTube Data API v3",
+        "Google OAuth 2.0",
+        "Render",
+        "Vercel"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/playlist-migrator-backend",
+      "deployUrl": null,
+      "updatedAt": "2025-05-10T17:55:22Z"
+    },
+    {
+      "name": "aulasprog2024",
+      "summary": "Repositório destinado ao armazenamento de produções desenvolvidas durante a disciplina Programação II, do curso Técnico em Informática, referente ao ano de 2024.",
+      "highlight": "Não especificado.",
+      "tags": [],
+      "repoUrl": "https://github.com/regi-lpf/aulasprog2024",
+      "deployUrl": null,
+      "updatedAt": "2024-03-07T14:30:49Z"
+    },
+    {
+      "name": "Prog1Final",
+      "summary": "Trabalho final da disciplina Programação I (2º ano do Técnico em Informática Integrado ao Ensino Médio). Sistema CRUD para gerenciamento de vendas de bolos de pote, desenvolvido em Python com arquitetura MVC e banco de dados MySQL. Sem deploy em produção.",
+      "highlight": "Python, MVC, MySQL, CRUD, gerenciamento de vendas de bolos de pote",
+      "tags": [
+        "Python",
+        "MySQL",
+        "MVC",
+        "CRUD",
+        "Trabalho Acadêmico"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/Prog1Final",
+      "deployUrl": null,
+      "updatedAt": "2024-03-07T02:51:06Z"
+    },
+    {
+      "name": "cd-shop",
+      "summary": "Projeto cd-shop desenvolvido em Java utilizando o módulo Spring Tools, como parte do curso de Java da +devs2blu. Não possui deploy.",
+      "highlight": "Java, Spring Tools",
+      "tags": [
+        "Java",
+        "Spring Tools",
+        "Curso +devs2blu"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/cd-shop",
+      "deployUrl": null,
+      "updatedAt": "2023-10-12T01:22:54Z"
+    },
+  ]
+}

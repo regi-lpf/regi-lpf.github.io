@@ -19,31 +19,76 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reginaldo | Portfólio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reginaldo Filho | Desenvolvedor de Software</title>
+    <meta name="description" content="Portfólio de Reginaldo Filho — Desenvolvedor de Software Jr. com experiência em Java/Spring Boot, React, Testes Automatizados e LLMs Locais.">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header class="container">
-    <h1>Reginaldo Filho</h1>
-	<img alt="Reginaldo Filho" src="https://avatars.githubusercontent.com/u/101012911" class="profile-image" style="max-width:150px;justify-self:last baseline;border-radius: 10%;">
-    <p class="subtitle">Desenvolvedor & Estudante de Ciência da Computação</p>
-    <nav class="social-links">
-      <a href="https://github.com/regi-lpf" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.linkedin.com/in/regi-lpf" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="mailto:reginaldofillo@gmail.com" target="_blank" rel="noopener">Email</a>
+	<body>
+  <header class="container header">
+    <div class="header-main">
+      <h1>Reginaldo Filho</h1>
+      <img alt="Reginaldo Filho" src="https://avatars.githubusercontent.com/u/101012911" class="profile-image" style="max-width:150px;justify-self:last baseline;border-radius: 10%;">
+      <p class="role">Desenvolvedor de Software Jr. &bull; Java/Spring Boot &amp; React</p>
+      <p class="location">Blumenau, Santa Catarina &bull; Ciência da Computação (IFC)</p>
+    </div>
+    <nav class="social-links" aria-label="Links de contato">
+      <a href="https://github.com/regi-lpf" target="_blank" rel="noopener" class="link-pill">GitHub</a>
+      <a href="https://www.linkedin.com/in/regi-lpf" target="_blank" rel="noopener" class="link-pill">LinkedIn</a>
+      <a href="mailto:reginaldo.fillo@gmail.com" class="link-pill">E-mail</a>
     </nav>
   </header>
 
   <main class="container">
-    <section>
-      <h2>Projetos</h2>
+    <!-- Seção de Experiência Profissional e Pesquisa -->
+    <section class="section" aria-labelledby="exp-heading">
+      <h2 id="exp-heading" class="section-title">Experiência &amp; Pesquisa</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-header">
+            <h3>Instituto Federal Catarinense (IFC)</h3>
+            <span class="period">Ago 2026 – Atual</span>
+          </div>
+          <p class="position">Bolsista de Pesquisa &bull; Painel Epistemológico da EPT</p>
+          <p class="summary">Arquitetura de extração, estruturação e análise de dados textuais utilizando Processamento de Linguagem Natural e LLMs locais.</p>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-header">
+            <h3>CI&amp;T</h3>
+            <span class="period">Mar 2025 – Jun 2026</span>
+          </div>
+          <p class="position">Software Development Intern &bull; BEES Deliver Portal</p>
+          <p class="summary">Desenvolvimento de microsserviços em React em squad ágil (Scrum). Implementação de testes unitários (Jest), de mutação (Stryker) e de componente (Cypress).</p>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-header">
+            <h3>Senior Sistemas</h3>
+            <span class="period">Jul 2024 – Out 2024</span>
+          </div>
+          <p class="position">Estagiário de Desenvolvimento &bull; Programa GoDev</p>
+          <p class="summary">Desenvolvimento colaborativo em ambiente corporativo, configuração de pipelines de CI/CD e práticas ágeis de entrega contínua.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção de Repositórios Enriquecidos -->
+    <section class="section" aria-labelledby="projects-heading">
+      <div class="projects-header">
+        <h2 id="projects-heading" class="section-title">Projetos &amp; Repositórios</h2>
+        <span id="data-source-badge" class="source-badge" title="Origem dos metadados"></span>
+      </div>
       <div id="projects-grid" class="grid">
-        <p class="loading">Carregando repositórios...</p>
+        <p class="status-msg">Carregando projetos...</p>
       </div>
     </section>
   </main>
 
-  <script src="script.js"></script>
-</body>
+  <footer class="container footer">
+    <p>Atualizado via pipeline estático &bull; <a href="https://github.com/regi-lpf/regi-lpf.github.io" target="_blank" rel="noopener">Código-fonte deste portfólio</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+	</body>
 </html>

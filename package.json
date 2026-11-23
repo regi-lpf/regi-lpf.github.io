@@ -1,0 +1,10 @@
+{
+  "name": "regi-lpf-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portfólio estático com pipeline modular de enriquecimento via LLM (llama.cpp / OpenRouter)",
+  "scripts": {
+    "enrich": "node --env-file=.env scripts/enrich.js"
+  }
+}
