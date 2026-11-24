@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-23T19:17:16.088Z",
+  "generatedAt": "2026-11-24T19:35:59.180Z",
   "provider": "openrouter",
   "projects": [
     {
       "name": "s2y-query",
-      "summary": "s2y-query é uma API simples de consulta ao YouTube desenvolvida em JavaScript para o projeto S2Y, servindo como alternativa à API v3. O projeto está implantado.",
-      "highlight": "Linguagem: JavaScript | Deploy: Sim | Escopo: Consulta ao YouTube para o projeto S2Y (alternativa à v3)",
+      "summary": "s2y-query é uma API de consulta ao YouTube implementada em JavaScript para o projeto S2Y. Funciona como alternativa à Youtube API v3. O projeto possui deploy configurado.",
+      "highlight": "Linguagem: JavaScript | Deploy: Sim | Escopo: Consulta ao YouTube para o projeto S2Y.",
       "tags": [
         "JavaScript",
         "YouTube API",
@@ -17,8 +17,8 @@
     },
     {
       "name": "past-fears",
-      "summary": "Past Fears é um jogo desenvolvido em Game Maker Language para a disciplina de Desenvolvimento de Projeto, no curso Técnico em Informática Integrado ao Ensino Médio. O repositório está desatualizado e possui deploy disponível.",
-      "highlight": "Classificação: RPG, Roguelike e Metroidvania. Estrutura dividida em três fases conforme a idade do protagonista: 4 anos (medo do escuro e Monstro do Armário), 8 anos (medo da escola, pressão por notas e desafio A Prova) e 12 anos (aceitação da aparência na adolescência, pensamentos indesejáveis e comentários alheios). Referências técnicas: The Binding of Isaac (salas geradas aleatoriamente, combate em tempo real, chefes) e Enter the Gungeon (bullet hell roguelike, salas processuais, morte permanente).",
+      "summary": "Past Fears é um jogo desenvolvido em Game Maker Language para a disciplina de Desenvolvimento de Projeto, do curso Técnico em Informática Integrado ao Ensino Médio.\n\nEstrutura dividida em três fases, cada uma vinculada a uma idade do protagonista e a um trauma específico:\n- 4 anos: Medo do Escuro e Monstro do Armário.\n- 8 anos: Medo da Escola, pressão por notas baixas e desafio final \"A Prova\".\n- 12 anos: Aceitação da própria aparência durante a adolescência e superação de pensamentos indesejáveis.",
+      "highlight": "Referências de design: The Binding of Isaac (combate em tempo real, estrutura por sala, chefes) e Enter the Gungeon (bullet hell, geração processual de salas, morte permanente, roguelike).\n\nStatus: repositório desatualizado. Deploy disponível.",
       "tags": [
         "Game Maker Language",
         "RPG",
@@ -33,7 +33,7 @@
     {
       "name": "mapkeep",
       "summary": "MapKeep é uma aplicação web para registro e visualização de viagens pelos estados do Brasil.",
-      "highlight": "Mapa interativo com destaque de estados visitados e contador de exploração; linha do tempo cronológica para memórias, fotos e datas.",
+      "highlight": "Mapa interativo com destaque visual de estados visitados, contador de exploração e linha do tempo cronológica com memórias, fotos e datas.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -50,9 +50,13 @@
     },
     {
       "name": "lemeept",
-      "summary": "Pipeline de extração de dados e painel bibliométrico para defesas do programa ProfEPT/IFC Campus Blumenau. Implementado em Python (>=3.14) com gerenciamento de dependências via `uv`.",
-      "highlight": "Execução em quatro etapas via CLI: (1) coleta de manifesto WordPress e download de PDFs com IDs estáveis; (2) extração determinística de PDFs locais via PyMuPDF com cache e scraping do eduCAPES; (3) extração via LLM, incremental por padrão, com ressincronização determinística offline; (4) importação de revisões por CSV, validação de contratos com Pydantic v2 e geração de `dist/painel-ept-v4.json`.",
+      "summary": "Pipeline de extração de dados e painel bibliométrico para defesas do programa ProfEPT/IFC Campus Blumenau. Desenvolvido em Python (>=3.14) com gerenciamento de dependências via `uv`. Realiza coleta, extração híbrida (determinística e via LLM), curadoria epistemológica e visualização de dados bibliométricos de dissertações do Mestrado Profissional em Educação Profissional e Tecnológica.",
+      "highlight": "Execução em 4 etapas via CLI: (1) coleta de manifesto WordPress e download de PDFs com IDs estáveis; (2) extração determinística de PDFs locais via PyMuPDF com cache e scraping do eduCAPES; (3) extração incremental via LLM, com modo offline de ressincronização determinística (`--sync-deterministico`); (4) importação de revisões via CSV, validação de contratos com Pydantic v2 e geração do artefato `dist/painel-ept-v4.json`.",
       "tags": [
+        "data-analysis",
+        "data-engineering",
+        "education",
+        "llm-tools",
         "Python",
         "Pydantic v2",
         "PyMuPDF",
@@ -67,12 +71,11 @@
     },
     {
       "name": "calculadora-epic",
-      "summary": "Projeto calculadora-epic desenvolvido com foco em HTML para aprendizado de introdução ao JavaScript. Possui deploy disponível.",
-      "highlight": "Objetivo educacional: introdução ao JavaScript.",
+      "summary": "Projeto simples de calculadora com o objetivo de aprendizado introdutório de JavaScript.",
+      "highlight": "Deployado.",
       "tags": [
         "HTML",
-        "JavaScript",
-        "Aprendizado"
+        "JavaScript"
       ],
       "repoUrl": "https://github.com/regi-lpf/calculadora-epic",
       "deployUrl": "https://regi-lpf.github.io/calculadora-epic/",
@@ -81,25 +84,27 @@
     {
       "name": "maoversary",
       "summary": "maoversary é um site estático desenvolvido em HTML que exibe citações de Mao Tsé-tung em português do Brasil com base no dia e mês inseridos pelo usuário. As citações são extraídas diretamente de https://www.marxists.org/portugues/mao/1966/citas/index.htm. O projeto está implantado.",
-      "highlight": "maoversary é um site estático desenvolvido em HTML que exibe citações de Mao Tsé-tung em português do Brasil com base no dia e mês inseridos pelo usuário. As citações são extraídas diretamente de https://www.marxists.org/portugues/mao/1966/citas/index.htm. O projeto está implantado.",
+      "highlight": "HTML estático, sem dependências de servidor ou instalação; deploy disponível.",
       "tags": [
         "HTML",
-        "deploy"
+        "extração PDF",
+        "deployado",
+        "responsivo"
       ],
       "repoUrl": "https://github.com/regi-lpf/maoversary",
       "deployUrl": "https://regi-lpf.github.io/maoversary/",
-      "updatedAt": "2026-11-18T23:05:32Z"
+      "updatedAt": "2026-11-24T19:12:19Z"
     },
     {
       "name": "compedu",
-      "summary": "Aplicação web para equipes escolares gerenciarem comunicados internos e registros pedagógicos, com controle de acesso por níveis (1 a 5) e dimensões horizontais (papel, ano letivo, turma, matrícula e vínculo de ensino).",
-      "highlight": "Backend em Python com FastAPI e Pydantic v2; banco PostgreSQL ou SQLite via SQLAlchemy 2.0 e Alembic; autenticação Google OAuth 2.0 com JWT de sessão; frontend em HTML, CSS e JavaScript puro; deploy serverless na Vercel.",
+      "summary": "CompEdu é uma aplicação web para equipes escolares gerenciarem comunicados internos e registros pedagógicos, com controle de acesso por níveis (1 a 5) e dimensões horizontais (turma vinculada - para professores). Desenvolvido em Python para a disciplina de Computação na Educação do curso de Ciência da Computação do IFC Campus Blumenau. O projeto está implantado na Vercel.",
+      "highlight": "Stack técnica: backend FastAPI com Pydantic v2, SQLAlchemy 2.0 e Alembic; banco PostgreSQL; autenticação via Google Identity Services (OAuth 2.0) com JWT de sessão; frontend em HTML, CSS e JavaScript puro; deploy como função serverless Python (api/index.py) com frontend estático na Vercel.",
       "tags": [
         "Python",
         "FastAPI",
         "PostgreSQL",
-        "SQLAlchemy",
         "Google OAuth",
+        "JWT",
         "Vercel",
         "Alembic",
         "Pytest"
@@ -110,7 +115,7 @@
     },
     {
       "name": "playlist-migrator-frontend",
-      "summary": "Interface de usuário para clonar playlists públicas do Spotify e recriá-las no YouTube.",
+      "summary": "Interface frontend para migração de playlists públicas do Spotify para o YouTube.",
       "highlight": "Frontend desenvolvido em HTML, CSS e JavaScript, integrado a um backend em Node.js para autenticação via Google OAuth 2.0 e consumo da YouTube Data API v3.",
       "tags": [
         "HTML",
@@ -127,30 +132,33 @@
       "updatedAt": "2025-05-05T17:11:45Z"
     },
     {
-      "name": "simple-django-project",
-      "summary": "Projeto de implementação de CRUD utilizando o framework Django, desenvolvido para a disciplina de Desenvolvimento Web. Execução local via servidor de desenvolvimento (`python manage.py runserver`). Requer Python 3 e instalação do pacote Django via pip.",
-      "highlight": "CRUD com Django",
+      "name": "maoversary-bot",
+      "summary": "Bot de publicação automática no X com geração de card PNG e agendamento via GitHub Actions. Inclui base de 427 citações mapeadas por `MM-DD`, extraídas diretamente do PDF do Livro Vermelho.",
+      "highlight": "Desenvolvido em Python, publica diariamente no X (Twitter), via X API v2 utilizando `tweepy`, a citação correspondente, acompanhada de um card em PNG.",
       "tags": [
-        "Django",
         "Python",
+        "X API v2",
+        "tweepy",
+        "GitHub Actions",
+        "PNG generation"
+      ],
+      "repoUrl": "https://github.com/regi-lpf/maoversary-bot",
+      "deployUrl": null,
+      "updatedAt": "2026-11-24T19:09:53Z"
+    },
+    {
+      "name": "simple-django-project",
+      "summary": "Projeto de CRUD desenvolvido com Django e Python 3 para a disciplina de Desenvolvimento Web. Execução do servidor de desenvolvimento local via comando `python manage.py runserver`.",
+      "highlight": "Implementação de operações CRUD (Create, Read, Update, Delete) utilizando o framework Django.",
+      "tags": [
+        "Python",
+        "Django",
         "CRUD",
-        "Desenvolvimento Web"
+        "Web Development"
       ],
       "repoUrl": "https://github.com/regi-lpf/simple-django-project",
       "deployUrl": null,
       "updatedAt": "2025-09-26T00:58:37Z"
-    },
-    {
-      "name": "mapkeep-backend",
-      "summary": "Backend do projeto MapKeep desenvolvido em Node.js.",
-      "highlight": "Node.js",
-      "tags": [
-        "Node.js",
-        "Backend"
-      ],
-      "repoUrl": "https://github.com/regi-lpf/mapkeep-backend",
-      "deployUrl": null,
-      "updatedAt": "2025-05-23T19:08:21Z"
     },
     {
       "name": "playlist-migrator-backend",
@@ -159,8 +167,9 @@
       "tags": [
         "Node.js",
         "JavaScript",
-        "YouTube Data API v3",
         "Google OAuth 2.0",
+        "YouTube Data API v3",
+        "googleapis",
         "Render",
         "Vercel"
       ],
@@ -170,16 +179,20 @@
     },
     {
       "name": "aulasprog2024",
-      "summary": "Repositório destinado ao armazenamento de produções desenvolvidas durante a disciplina Programação II, do curso Técnico em Informática, referente ao ano de 2024.",
-      "highlight": "Não especificado.",
-      "tags": [],
+      "summary": "Repositório destinado ao armazenamento de produções desenvolvidas nas aulas da disciplina Programação II, do curso Técnico em Informática, referentes ao ano de 2024. Não há deploy disponível. A linguagem primária e os tópicos não estão especificados nos metadados do repositório.",
+      "highlight": "Conteúdo acadêmico da disciplina Programação II (2024). Sem deploy.",
+      "tags": [
+        "Programação II",
+        "Técnico em Informática",
+        "2024"
+      ],
       "repoUrl": "https://github.com/regi-lpf/aulasprog2024",
       "deployUrl": null,
       "updatedAt": "2024-03-07T14:30:49Z"
     },
     {
       "name": "Prog1Final",
-      "summary": "Trabalho final da disciplina Programação I (2º ano do Técnico em Informática Integrado ao Ensino Médio). Sistema CRUD para gerenciamento de vendas de bolos de pote, desenvolvido em Python com arquitetura MVC e banco de dados MySQL. Sem deploy em produção.",
+      "summary": "Trabalho final da disciplina Programação I, curso Técnico em Informática Integrado ao Ensino Médio. Sistema CRUD para gerenciamento de vendas de bolos de pote.",
       "highlight": "Python, MVC, MySQL, CRUD, gerenciamento de vendas de bolos de pote",
       "tags": [
         "Python",
@@ -194,12 +207,12 @@
     },
     {
       "name": "cd-shop",
-      "summary": "Projeto cd-shop desenvolvido em Java utilizando o módulo Spring Tools, como parte do curso de Java da +devs2blu. Não possui deploy.",
-      "highlight": "Java, Spring Tools",
+      "summary": "Projeto cd-shop desenvolvido em Java utilizando o módulo Spring Tools. Atividade acadêmica do curso de Java da +devs2blu. Sem deploy.",
+      "highlight": "Java, Spring Tools, curso +devs2blu",
       "tags": [
         "Java",
         "Spring Tools",
-        "Curso +devs2blu"
+        "Educacional"
       ],
       "repoUrl": "https://github.com/regi-lpf/cd-shop",
       "deployUrl": null,
