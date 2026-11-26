@@ -1,0 +1,104 @@
+{
+  "featured": [
+    {
+      "repo": "lemeept",
+      "title": "Painel ProfEPT (lemeept)",
+      "summary": "Pipeline em Python que extrai, estrutura e analisa as defesas do ProfEPT/IFC com LLMs locais e publica um painel bibliométrico interativo.",
+      "highlight": "Pipeline neuro-simbólico em 4 etapas (ingest → extract → llm → compile), 6 provedores de LLM intercambiáveis e validação estrita com Pydantic v2.",
+      "tags": ["Python", "LLMs", "Pydantic", "Engenharia de Dados"],
+      "image": "img/projects/lemeept.jpg",
+      "links": [
+        { "label": "Código", "url": "https://github.com/regi-lpf/lemeept" },
+        { "label": "Demo ↗", "url": "https://regi-lpf.github.io/lemeept/", "primary": true }
+      ]
+    },
+    {
+      "repo": "compedu",
+      "title": "CompEdu",
+      "summary": "Plataforma web desacoplada para equipes escolares gerenciarem comunicados internos e registros pedagógicos.",
+      "highlight": "Controle de acesso RBAC em dois eixos (níveis 1–5 × papel, turma e ano letivo), Google OAuth2 + JWT e testes com Pytest.",
+      "tags": ["FastAPI", "PostgreSQL", "SQLAlchemy", "OAuth2 / JWT"],
+      "image": "img/projects/compedu.jpg",
+      "links": [
+        { "label": "Código", "url": "https://github.com/regi-lpf/compedu" },
+        { "label": "Demo ↗", "url": "https://compedu.vercel.app/", "primary": true }
+      ]
+    },
+    {
+      "repo": "mapkeep",
+      "title": "MapKeep",
+      "summary": "Diário de viagens com mapa interativo do Brasil para marcar estados visitados e guardar memórias, fotos e datas.",
+      "highlight": "Contador de exploração e linha do tempo cronológica, integrado ao Supabase (PostgreSQL) com deploy automatizado via GitHub Actions.",
+      "tags": ["JavaScript", "Vite", "Supabase", "GitHub Actions"],
+      "image": "img/projects/mapkeep.jpg",
+      "links": [
+        { "label": "Código", "url": "https://github.com/regi-lpf/mapkeep" },
+        { "label": "Demo ↗", "url": "https://regi-lpf.github.io/mapkeep/main.html", "primary": true }
+      ]
+    },
+    {
+      "repo": "playlist-migrator-frontend",
+      "related": ["playlist-migrator-backend", "s2y-query"],
+      "title": "S2Y: Spotify → YouTube",
+      "summary": "Aplicação web para migrar playlists públicas do Spotify diretamente para contas do YouTube.",
+      "highlight": "Frontend + API Node.js com Google OAuth 2.0 e pacote npm próprio (s2y-query) para contornar limites de cota da YouTube Data API.",
+      "tags": ["JavaScript", "Node.js", "OAuth 2.0", "npm"],
+      "image": "img/projects/s2y.jpg",
+      "links": [
+        { "label": "Frontend", "url": "https://github.com/regi-lpf/playlist-migrator-frontend" },
+        { "label": "Backend", "url": "https://github.com/regi-lpf/playlist-migrator-backend" },
+        { "label": "npm", "url": "https://www.npmjs.com/package/@regi_lpf/s2y-query" },
+        { "label": "Demo ↗", "url": "https://regilpf-s2y.vercel.app", "primary": true }
+      ]
+    }
+  ],
+  "overrides": {
+    "references-parser": {
+      "title": "Extrator de referências bibliográficas",
+      "summary": "Converte referências em JSON e gera uma vitrine estática para WordPress, sem backend.",
+      "tags": ["Python", "Pydantic", "Playwright"]
+    },
+    "maoversary-bot": {
+      "title": "Maoversary Bot",
+      "summary": "Bot em Python que publica uma citação diária no X com um card PNG gerado, agendado via GitHub Actions.",
+      "tags": ["Python", "X API", "GitHub Actions"]
+    },
+    "past-fears": {
+      "title": "Past Fears",
+      "summary": "Jogo roguelike em GameMaker sobre superar medos da infância, feito no curso técnico.",
+      "tags": ["GameMaker", "Game Design"],
+      "deployLabel": "Jogar ↗"
+    },
+    "maoversary": {
+      "title": "Maoversary",
+      "summary": "Site estático que mostra a citação correspondente a uma data escolhida.",
+      "tags": ["HTML", "JavaScript"]
+    },
+    "simple-django-project": {
+      "title": "CRUD com Django",
+      "summary": "Projeto da disciplina de Desenvolvimento Web.",
+      "tags": ["Python", "Django"]
+    },
+    "calculadora-epic": {
+      "title": "Calculadora",
+      "summary": "Primeiro projeto de estudo em JavaScript.",
+      "tags": ["JavaScript"]
+    },
+    "Prog1Final": {
+      "title": "Sistema de vendas (Programação I)",
+      "summary": "CRUD em Python com MVC e MySQL para gerenciar vendas de bolos de pote.",
+      "tags": ["Python", "MySQL", "MVC"]
+    },
+    "aulasprog2024": {
+      "title": "Programação II (2024)",
+      "summary": "Exercícios e projetos da disciplina.",
+      "tags": ["Python"]
+    },
+    "cd-shop": {
+      "title": "CD Shop",
+      "summary": "Atividade em Java/Spring do curso +devs2blu.",
+      "tags": ["Java", "Spring"]
+    }
+  },
+  "hidden": []
+}
